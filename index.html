@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="manifest" href="manifest.json">
+
+    <meta charset="UTF-8">
+    <title>Welcome | To-Do List</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+            padding: 30px;
+        }
+       
+            nav {
+        background-color: #5ea7a7; /* Blue-green */
+        padding: 20px 0;
+        text-align: center;
+        font-family: 'Segoe UI', sans-serif;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin: 0 18px;
+        text-decoration: none;
+        font-size: 16px;
+        letter-spacing: 1px;
+        transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+        color: #ffd700; /* Yellow hover effect */
+    }
+
+        .welcome-image {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            margin-top: 30px;
+        }
+        .welcome-container {
+            margin-top: 30px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+        .get-started-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+            font-size: 16px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .get-started-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="todo.html">Tasks</a>
+  <a href="help.html">Help</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="welcome-image-wrapper">
+  <img src="assets/images/welcome-image.jpg" alt="Welcome Image" class="welcome-image">
+</div>
+
+<div class="welcome-container">
+    <h1>Welcome to Your Productivity Hub</h1>
+    <p>Start organizing your tasks and boost your efficiency!</p>
+    <a href="todo.html" class="get-started-btn">Get Started</a>
+</div>
+</body>
+</html>
+
+<footer style="margin-top: 50px; padding: 20px; background-color: #f0f0f0;">
+  <section id="help" style="margin-bottom: 30px;">
+    <h2>Help</h2>
+    <ul style="list-style-type: disc; text-align: left; max-width: 600px; margin: auto;">
+      <li>If the buttons don't respond, try refreshing the page.</li>
+      <li>If tasks don't save, check your browser settings.</li>
+      <li>Still stuck? Contact us below.</li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email us at <a href="mailto:todolistbyyash@gmail.com">todolistbyyash@gmail.com</a></p>
+  </section>
+</footer>
